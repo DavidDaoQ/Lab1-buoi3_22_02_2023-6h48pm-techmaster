@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tài liệu</title>
+    <style>
+        .box {}
+        
+        .box--red {
+            background-color: red;
+        }
+        
+        .box--blue {
+            background-color: blue;
+        }
+        
+        .box--relative {
+            position: relative;
+            top: 10px;
+            left: 10px;
+            /* khong anh huong den thang xung quanh */
+            /* can theo vi tri ban dau */
+            /* mac dinh no o layer cao hon */
+            /* chi ap dung toi da 2 thuoc tinh () uu tien top left */
+        }
+        
+        .box--fixed {
+            background-color: pink;
+            /* width co vua voi noi dung; */
+            /* anh huong den nhung phan tu xung quanh; */
+            /* co the ap dung cho 4thuoc tinh; */
+            /* chi ap dung duoc khi khong co thuoc tinh width,height; */
+            position: fixed;
+            top: 100px;
+            right: 100px;
+            left: 100px;
+            bottom: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box--red box--relative">Relative</div>
+    <div class="box box--blue">Static(Normal)</div>
+    <div class="box box--fixed box--pink">Fixed</div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+    /*áp dụng hành vi=>width sẽ bao gồm cả border,padding*/
+    box-sizing: border-box;
+    /*reset các margin,padding mặc định*/
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: firebrick;
+}
+
+.font {
+    font-style: italic;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.text {
+    float: right;
+}
+
+.box {
+    /*thuộc tính thay đổi kiểu hiển thị*/
+    display: inline-block;
+    /*màu nền*/
+    background-color: green;
+    /*content*/
+    /*chỉ định chiều rộng hiển thị nội dung*/
+    width: 300px;
+    /*mặc định,chiều cao sẽ tự co giãn cho khớp với nội dung*/
+    height: 300px;
+    /*padding*/
+    padding: 10px 20px;
+    /*border*/
+    border: 8px solid black;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    margin: 30px;
+}
+
+
+/*btvn: tìm hiểu thêm một số pseudo class*/

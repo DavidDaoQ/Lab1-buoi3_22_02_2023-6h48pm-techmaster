@@ -1,0 +1,25 @@
+.item {
+    background-color: red;
+    padding: 20px;
+    color: white;
+    height: 120px;
+    width: 400px;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    /* đi kèm với các thuộc tính khác của thăng flexbox */
+    /* chỉnh hướng sắp xếp phần tử */
+    flex-direction: row;
+    /* căn chỉnh vị trí phần tử theo trục main*/
+    justify-content: center;
+    /* căn chỉnh vị trí phần tử theo trục cross */
+    align-items: stretch;
+    /* cho phep phần tử con xuống dòng */
+    flex-wrap: nowrap;
+    /* căn chỉnh kích thước và vị trí của dòng (line) */
+    align-content: stretch;
+    /* căn chỉnh khoảng cách */
+    gap: 10px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-size: 21px;
+        background-image: url(https://thumbs.dreamstime.com/b/real-imge-assam-india-natural-beauty-mountain-sky-blue-white-combination-168813637.jpg);
+        background-size: contain;
+      }
+
+      main {
+        background-color: rgba(255, 0255, 0255, 0.7);
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .image {
+        background-image: url(https://media.techmaster.vn/api/static/c2m5ou451cob24f6skeg/c3bg23451co34cg0jgt0);
+        background-size: cover;
+        height: 400px;
+        width: 700px;
+      }
+
+      .caption {
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+
+      .nav {
+        background-color: aquamarine;
+        text-align: center;
+      }
+
+      .nav-link {
+        margin-right: 20px;
+        line-height: 42px;
+      }
+
+      .register {
+        background: aquamarine;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="#" class="nav-link">Trang chủ</a>
+        <a href="#" class="nav-link">Chủ đề</a>
+        <a href="#" class="nav-link">Bài đăng mới nhất</a>
+        <a href="#" class="nav-link">Liên hệ</a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1>8 thư viện React mạnh mẽ để thử vào năm 2021</h1>
+        <p>28 tháng 06, 2021 - 1258 lượt xem</p>
+        <hr />
+        <p>
+          Sử dụng các thư viện phù hợp để tối ưu hóa quy trình làm việc của dự
+          án
+        </p>
+        <div class="image">
+          <div class="caption">
+            Sử dụng các thư viện phù hợp để tối ưu hóa quy trình làm việc của dự
+            án
+          </div>
+        </div>
+        <h2 class="heading">1.react-select</h2>
+        <p class="italic">
+          Một sự thay thế tuyệt vời cho Component Chọn trong
+          <span class="bold">React.js</span>.
+        </p>
+        <p>
+          Trình bày một cách hoàn toàn mới để phát triển các thành phần React.js
+          mạnh mẽ, vừa hoạt động hiệu quả vừa có thể tùy chỉnh hoàn toàn.
+        </p>
+        <p class="bold">Các tính năng nổi bật</p>
+        <ul>
+          <li>
+            Cách tiếp cận dữ liệu linh hoạt, với các chức năng có thể tùy chỉnh.
+          </li>
+          <li>
+            <span class="bold">API</span> tạo kiểu có thể mở rộng với
+            <span class="bold">Emotion</span>( Một thư viện javascript được
+            thiết kế cho kiểu <span class="bold">CSS</span> viết ).
+          </li>
+          <li>
+            API chèn thành phần để kiểm soát hoàn toàn đối với hành vi giao diện
+            người dùng.
+          </li>
+          <li>
+            Nhóm tùy chọn, hỗ trợ cổng thông tin, hoạt ảnh và hơn thế nữa.
+          </li>
+        </ul>
+        <p>Để cài đặt:</p>
+        <p class="italic bold">npm i react-select</p>
+        <h2 class="heading">2. react-dnd</h2>
+        <p class="italic">Drap and Drop for React</p>
+        <p class="bold">Các tính năng nổi bật</p>
+        <ol>
+          <li>
+            Hoàn hảo cho các ứng dụng như Trello và Storify, nơi kéo chịu trách
+            nhiệm chuyển dữ liệu giữa các phần khác nhau của ứng dụng.
+          </li>
+          <li>Được xây dựng dựa trên API kéo và thả HTML5.</li>
+          <li>
+            React DnD sử dụng dữ liệu chứ không phải xem quảng cáo là nguồn sự
+            thật.
+          </li>
+        </ol>
+        <p>Để cài đặt:</p>
+        <p class="italic bold">npm i react-dnd</p>
+      </article>
+
+      <hr />
+      <aside>
+        <img src="https://randomuser.me/api/portraits/men/62.jpg" alt="vv" />
+        <h3>John</h3>
+        <ul>
+          <li>Số bài viết: 120 bài</li>
+          <li>Lượt thích: 999 likes</li>
+        </ul>
+      </aside>
+
+      <hr />
+      <aside class="register">
+        <h2>Đăng ký để nhận bài blogs mới nhất</h2>
+        <label for="email">Email của bạn:</label>
+        <input type="email" name="email" id="email" /><br /><br />
+        <input type="checkbox" name="notice" id="notice" />
+        <label for="notice">Nhận thông báo quảng cáo từ chúng tôi</label>
+        <br /><br /><input type="button" value="đăng ký" />
+      </aside>
+    </main>
+  </body>
+</html>
